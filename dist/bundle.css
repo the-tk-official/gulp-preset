@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+}
+.header {
+  width: 100%;
+}
+.main {
+  flex-grow: 1;
+}
+.page {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+.footer__copyright {
+  text-align: right;
+}
+.header_theme_dark {
+  color: #fff;
+}
+.header__title {
+  font-size: 3em;
+}
+.main__text {
+  color: tomato;
+}
+
+.page_theme_dark {
+  color: #f5f5f5;
+  background-color: #000;
+}
+.page__header {
+  color: tomato;
+}
